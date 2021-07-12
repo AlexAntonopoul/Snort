@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/headwifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Edit IP and Ports"
+        android:textColor="#f0f3bd"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headwifi"
+        android:padding="10dp"
+        android:text="Hit the pig to change SSH values and decrypt key!"
+
+        android:textColor="#f9dcc4"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/dialog_info">
+
+
+        <Button
+            android:textColor="@color/teal_700"
+            android:background="#f0f3bd"
+            android:id="@+id/dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="ok" />
+    </LinearLayout>
+</RelativeLayout>
