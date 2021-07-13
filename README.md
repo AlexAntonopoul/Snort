@@ -1,7 +1,7 @@
 # Snort
 Snort Client and Server System
 
-This App work and tested on Android 10.0 Huawei p30 pro
+This App has been developed and tested on Android 10.0 
 
 Video link 
 
